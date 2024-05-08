@@ -90,11 +90,20 @@ p{
 
     #search {
         max-width: none;
-        width: calc(100% - 70px);
+        width: calc(100% - 30px); 
+    }
+
+    #searchBtn {
+        max-width: none;
+        width: calc(100% - 30px); 
     }
 
     #mealContent img {
         max-height: 200px;
         width: auto;
+    }
+
+    #searchedCategoryContent {
+        grid-template-columns:  repeat(auto-fit, minmax(150px, 1fr));
     }
 }
